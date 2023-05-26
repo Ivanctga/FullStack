@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.box, .box2 {
+    width: 300px;
+    margin: 0 auto;
+    background: gray;
+    
+}
+
+.box p, .box2 {
+    width: 100%;
+}
+
+.box2 {
+    background-color: red;
+    display: block;
+    margin-top: 20px;
+    text-align: justify;
+}

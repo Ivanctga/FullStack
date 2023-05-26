@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+:root {
+    --corPadrao: blue;
+    --widthPadrao: 300px;
+    --paddingPadrao: 20px;
+    --marginPadrao: 10px auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: auto;
+    font-weight:bolder;
+    color: blue;
+    background-color: #bbb;
+    padding: 20px;
+}
+
+.variaveis {
+    background-color: var(--corPadrao);
+    max-width: var(--widthPadrao);
+    margin: var(--marginPadrao);
+    color: white;
+    text-align: center;
+}
+

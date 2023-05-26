@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    min-width: 1280px;
+    height: 200px;
+    background-color: gray;
+}
+
+.article {
+    margin: auto;
+    width: 1280px;
+    height: 600px;
+    background-color: red;
+}

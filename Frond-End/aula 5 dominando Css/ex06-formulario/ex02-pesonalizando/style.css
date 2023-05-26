@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+input[type=file] {
+    display: none;
+}
+
+label {
+    display: block;
+    margin:20px auto;
+    cursor: pointer;
+    font-size: 17px;
+    width: 220px;
+    height: 40px;
+    background-color: #ccc;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+} 
+

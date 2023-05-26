@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    text-align: center;
+   
+}
+
+.text-align {   
+    width: 100%;
+    margin: 0 auto;
+    height: 40vh;
+    background-image: url(img/img3.jpg);
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box {
+    width: 100%;
+    margin: 80px auto;
+    text-align: center;
+    background-color: rgb(100, 100, 100);
+}
+
+.item {
+    width: 33.3%;
+    margin-right: -4px;   
+    display: inline-block;
+}
+
+.item img{
+    width: 30%;
+}
+
+.last {
+    margin-right: 0;
+}

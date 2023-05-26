@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    text-align: center;    
+}
+
+.parent {
+    background-color: #069;
+    width: 100%;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    width: 100px;
+    height:100px;
+    background-color: green;
+    margin: 20px 0;
+}
+
+/* Fórmulas: Estamos dizendo que cada 2 elementos aplique o estilo */
+.parent div:nth-of-type(2n + 1) > div.item {
+    background-color: red;
+}

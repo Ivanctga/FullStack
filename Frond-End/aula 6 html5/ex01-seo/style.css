@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px ;
+    background-color: gray;
+    color:darkblue
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px;
+    padding: 10px;          
+}

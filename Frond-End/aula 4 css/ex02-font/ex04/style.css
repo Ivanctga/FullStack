@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+* {
+    margin: 0x;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ol > li {
+    color: red;
+}

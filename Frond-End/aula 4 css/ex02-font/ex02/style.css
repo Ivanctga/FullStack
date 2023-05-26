@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.artigo {
+    width: 100%;     
+    background-color: lightgray;
+    text-align: center;
+}
+
+.artigo h1 {
+    color: rgb(66, 149, 244);
+    font-size: 23px;
+    font-style: normal;
+    font-weight: normal;    
+}
+
+.artigo p {
+    color: #142c6d;
+    text-align: left;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 12px;
+}

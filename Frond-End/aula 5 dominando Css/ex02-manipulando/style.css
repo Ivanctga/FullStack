@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px;    
+}
+
+a[href*="google"] {
+    background-color: yellow;
+    
+}
+
+/* ACHE A PALAVRA GOOGLE EM QUALQUER LUGAR.
+
+a[attr*="google"] {
+    backgraund-color: blue::after
+}
+
+    QUANDO COMEÇAMOS COM A PALAVRA GOOGLE SEGUINDO UM ACENTO.
+
+a[attr|="google"] {
+    backgraund-color: yellow;
+}
+
+    QUANDO COMEÇAMOS COM A PALAVRA.
+
+a[attr^="goo"] {
+    backgraund-color: red::after
+}
+
+*/

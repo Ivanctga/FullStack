@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o conteudo do nosso site*/
+
+.artigo {
+    width: 1280px;
+    background-color: gray;
+    padding: 40px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.artigo h1 {
+    color:#069 ;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    
+}
+
+.artigo p {
+    color: rgb(33, 33, 158);
+    font-size: 17px;
+    font-family: 'tahoma';
+    text-align: justify;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 12px;
+}

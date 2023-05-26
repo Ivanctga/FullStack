@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    border: 100%;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: auto;
+    font-weight:bolder;
+    color: blue;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.box {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1080px;
+    padding: 30px 2%;
+    background-color: rgb(220,220,220);
+    position: relative;
+}
+
+.box p {
+    
+    display: inline;
+    border-bottom: 2px solid green;
+    color: #444;
+    font-size: 13px;
+    text-align: justify;
+    
+}

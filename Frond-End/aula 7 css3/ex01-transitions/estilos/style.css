@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    border: 100%;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: auto;
+    font-weight:bolder;
+    color: blue;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+div.box {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    cursor: pointer;
+    transition: 1s width, 2s height linear;
+
+}
+div.box:hover {
+    width: 600px;  
+    height: 400px;
+    background-color: red;
+}
