@@ -54,7 +54,7 @@ nav.mobile ul {
     display: none;
     width: 100%;
     left: 0;
-    top: 115px;
+    top: 95px;
     border-bottom: 4px solid #eb2d2d;
     z-index: 999;
     position: absolute;
@@ -68,7 +68,7 @@ nav.mobile li {
     font-style: italic;
 }
 
-nav.mobile a {
+nav.mobile li a {
     text-decoration: none;
     color: white;
 }
@@ -105,7 +105,7 @@ section.banner {
 }
 
 .text-banner {    
-    padding: 100px;    
+    padding: 70px;    
 }
 
 .text-banner-single {
@@ -159,7 +159,7 @@ section.veiculos-destaque {
 }
 
 section.veiculos-destaque .container {
-    max-width: 1000px;
+    /*max-width: 1000px;*/
     padding: 40px 0;    
 }
 
@@ -192,6 +192,7 @@ section.veiculos-destaque .container {
 .vitrine {
     float: left;
     width: 33.3%;
+    text-align: center;
 }
 
 .vitrine .carro-img {
@@ -206,7 +207,7 @@ section.veiculos-destaque .container {
     color: black;
     font-style: italic;
     font-size: 25px;
-    text-align: center;
+    
 }
 
 .vitrine p {
@@ -215,7 +216,7 @@ section.veiculos-destaque .container {
     color: #353535;
     font-style: italic;
     font-size: 20px;
-    text-align: center;
+   
 }
 
 .btn1 {
@@ -500,7 +501,7 @@ section.venda{
 .search2 h2 {
     font-size: 24px;
     color: black;
-    font-weight: norma;
+    font-weight: normal;
 }
 
 .form-venda-wraper {
@@ -525,8 +526,6 @@ section.venda{
 .form-venda-wraper input[type=checkbox]:checked + label > .circle {
     display: block;
 }
-
-
 
 .circle {
     width: 8px;
@@ -555,11 +554,7 @@ section.venda{
     margin-top: 20px;
 }
 
-
-
-
 /*---------*/
-
 
 
 @media screen and (max-width: 1100px) {
@@ -577,6 +572,16 @@ section.venda{
         margin-left: 0;
         margin-top: 15px;
     }
+    
+}
+
+@media screen and (max-width: 900px) {
+
+	.nome-depoimento{
+	float: left;
+	width: 100%;
+	margin:20px 20px;
+	}
 }
 
 @media screen and (max-width: 768px) { 
@@ -657,6 +662,10 @@ section.venda{
         width: 270px;
     }
 
+    section.veiculos-destaque .line-titulo h2{
+	    font-size: 23px;
+    }
+
     section.veiculos-destaque .container {
         max-width: 1000px;
         padding: 40px 0;
@@ -667,11 +676,20 @@ section.venda{
         display: inline-block;
         float: none;
         width: 80%;
-        margin-top: 20px;
+        text-align: center;
+        margin-top: 20px;        
     }
 
     .vitrine a {
-        display: inline-block;
+        display: inline-block;       
     }
+        
+    
+}
+
+@media screen and (max-width: 480px) {
+	.vitrine{               
+		width: 100%;
+	}
 }
     
