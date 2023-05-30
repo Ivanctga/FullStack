@@ -219,13 +219,6 @@ section.veiculos-destaque .container {
    
 }
 
-.vitrine .btn {
-   
-    height: 60px;
-    background: green;
-    
-}
-
 .btn1 {
     text-align: center;
     display: block;
@@ -650,8 +643,6 @@ section.venda{
         text-align: center;
         width: 100%;
     }
-
-
 }
 
 @media screen and (max-width: 580px) {
