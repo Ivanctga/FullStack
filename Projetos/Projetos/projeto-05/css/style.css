@@ -462,7 +462,7 @@ section.venda{
     position: absolute;
     left: 0;
     top: 0;
-    width: 30%;
+    width: 0;
     height: 20px;
     border-radius: 20px;
     background:linear-gradient(to bottom, rgb(255,255,255), rgb(200,200,200));
@@ -472,7 +472,7 @@ section.venda{
     width: 26px;
     height: 26px;
     position: absolute;
-    left: calc(30% - 13px);
+    left: 0;
     top: -3px;
     cursor: pointer;
     border-radius: 8px;
@@ -654,14 +654,18 @@ section.venda-single .container {
     width: 100%;    
 }
 
+
 .nav-galeria-wraper {
-    width: 200%;
+    
 }
+
 
 .mini-img-wraper {
     float: left;
     padding: 9px;    
-    width: calc(33.3% * (100 / 200));
+    /*
+       via js => width
+    */
 }
 
 .mini-img { 

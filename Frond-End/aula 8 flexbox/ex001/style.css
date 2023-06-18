@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html ,body {
+    height: 100%;
+}
+
+/* Classes gerais - framework */
+
+.text-white {
+    color: white;
+}
+    
+
+.gold {
+    background-color: gold;
+}
+
+.light-blue {
+    background-color: #00a3d9;
+}
+
+section.container {
+    width: 100%;
+}
+
+div.flex {
+    display: flex;
+    max-width: 960px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+div.w50 {
+    width: 50%;
+}
+
+/* Classes especificas para nosso site */
+
+header.topo-site {
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 22px;
+    font-family: Verdana;
+}
+
+header.topo-site ul li {
+    position: relative;
+    top: 8px;
+    padding: 0 20px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+header.topo-site a {
+    text-decoration: none;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}

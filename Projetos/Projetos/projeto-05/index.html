@@ -21,7 +21,7 @@
                     <li><a style="color: #eb2d2d" href="index.html">Home</a></li>
                     <li><a href="venda.html">Venda</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav><!--desktop-->
                 
@@ -30,7 +30,7 @@
                     <li><a style="color: #eb2d2d" href="index.html">Home</a></li>
                     <li><a href="venda.html">Venda</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav><!--mobile-->
 
@@ -106,11 +106,12 @@
             <h2>Depoimento</h2>
             <div class="depoimento-single">
                 <p>"Ótima loja com um atendimento difenciado, com carros muito novos, empresa transparente, recomendo a todos para ntes de comprar seu carro novo ou usado."</p>
+                <p>Outro depoimento</p>
 
                 <div class="navigation">
                     <div class="arrows">
-                        <img src="img/arrow-left.png" alt="seta">
-                        <img src="img/arrow-right.png" alt="seta">
+                        <img prev src="img/arrow-left.png" alt="seta">
+                        <img next src="img/arrow-right.png" alt="seta">
                     </div><!--arrows-->
                     <div class="nome-depoimento">Marcos Antônio da Silva</div>
                 </div><!--navigation-->
@@ -119,7 +120,7 @@
         
     </section><!--sevicos-descricao-->
 
-    <section class="contato">
+    <section id="contato" class="contato">
         <div class="line-titulo">
             <div class="ln1"></div>
             <h2>Contato</h2>
@@ -158,7 +159,7 @@
                     <li><a style="color: #eb2d2d" href="index.html">Home</a></li>
                     <li><a href="venda.html">Vendas</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav>
 
@@ -167,6 +168,9 @@
         </div><!--container-->
     </footer>
 
+    <script src="js/jquery.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/menu_responsivo.js"></script>
 
 </body>
 </html>

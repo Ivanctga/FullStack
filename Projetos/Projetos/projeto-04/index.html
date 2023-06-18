@@ -9,6 +9,7 @@
     <meta name="keywords" content="">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
     <title>Dental Clinic</title>
 </head>
 <body>
@@ -20,19 +21,19 @@
             </div><!--logo-->
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="">Quem sou</a></li>
-                    <li><a href="">Depoimento</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="">Quem sou</a></li>                    
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#depoimento">Depoimento</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
 
             <nav class="menu-mobile">
                 <ul>
-                    <li><a href="">Quem sou</a></li>
-                    <li><a href="">Depoimento</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="">Quem sou</a></li>                   
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#depoimento">Depoimento</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
 
@@ -99,7 +100,7 @@
         </div><!--container-->
     </section><!--servicos-->
 
-    <section class="perfil-container">
+    <section id="sobre" class="perfil-container">
         <div class="container">
             <div class="perfil-wraper">
                 
@@ -185,12 +186,12 @@
                     <p>As facetas dentais, também conhecidas por lentes de contato, são lâminas confeccionadas em Porcelana ou Resina Composta com cerca de sete milímetros de espessura (no caso das facetas), que são cimentadas nos dentes incisivos centrais.</p>
                 </div>
             </div><!--tratamento-container-->
-            <div class="clear"></div>
+            <!--<div class="clear"></div>-->
         </div><!--container-->
 
     </section><!--tratamentos-->
 
-    <section class="depoimentos">
+    <section id="depoimento" class="depoimentos">
 
         <h2>Depoimentos</h2>
 
@@ -198,6 +199,24 @@
             <div class="depoimento-single">
                 <p>Estrutura e atendimento excepcional! adorei o atendimento do Drº Edward Jenne, excelente profissional</p>
 
+                <div class="nome-depoimento">
+                    <img src="img/depoimento1.png" alt="">
+                    <span>Elizabete Augusta Ferreira</span>
+                </div><!--nome-depoimento-->
+            </div><!--depoimento-single-->
+
+            <div class="depoimento-single">
+                <p>Estrutura e atendimento excepcional! adorei o atendimento do Drº Edward Jenne, excelente profissional</p>
+            
+                <div class="nome-depoimento">
+                    <img src="img/depoimento1.png" alt="">
+                    <span>Elizabete Augusta Ferreira</span>
+                </div><!--nome-depoimento-->
+            </div><!--depoimento-single-->
+
+            <div class="depoimento-single">
+                <p>Estrutura e atendimento excepcional! adorei o atendimento do Drº Edward Jenne, excelente profissional</p>
+            
                 <div class="nome-depoimento">
                     <img src="img/depoimento1.png" alt="">
                     <span>Elizabete Augusta Ferreira</span>
@@ -233,7 +252,7 @@
         <div class="clear"></div><!--clear-->
     </section><!--social-->
 
-    <section class="contato">
+    <section id="" class="contato">
         <h2>Contato</h2>
         <form action="">
 
@@ -283,5 +302,11 @@
             <div class="clear"></div>
         </div><!--container-->
     </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/menu_responsivo.js"></script>
+    <script src="js/menuScroll.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/slides.js"></script>
 </body>
 </html>

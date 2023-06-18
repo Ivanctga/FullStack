@@ -44,14 +44,14 @@ nav.mobile-menu {
     background-image: url(../img/menu.png);
     background-size: 100% 100%;
 }
-
+/*
 nav.mobile-menu:hover  ul {
     opacity: 1;
 }
+*/
 
 nav.mobile-menu ul {
-    opacity: 0;
-    transition: 1s;
+    display: none;    
     background-color: white;
     position: absolute;
     width: 100%;
@@ -257,11 +257,20 @@ sessao3 {
     background: white;
 }
 
+.scrollEquipe {
+    max-width: 600px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.scroll-wraper {
+    width: 100%;
+}
+
 .sobre-autor {
     float: left;
-    max-width: 600px;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 100%;
+    padding:0 20px;
 }
 
 .titulo-autor {
@@ -284,18 +293,18 @@ sessao3 {
     font-size: 15px;
     font-style: italic;
     font-weight: 500;
-    color:#472562;
+    color:#472562;   
 }
 
 .titulo-autor .img-autor {
-    margin-left: 30px;
+   margin-left: 30px;
    float: left;
    width: 70px;
    height: 70px;
    background-image: url(../img/ivan.jpg);
    background-size: 100% 100%;
    position: relative; 
-   top: -6px;  
+   /*top: -6px;  */
    border-radius: 50px;
    background-color:transparent;
 }
@@ -316,7 +325,7 @@ sessao3 {
 .slider-bullets {
     float: left;
     width: 100%;
-    padding-left: 30px;
+    padding-left: 40px;
     margin-top: 12px;
 }
 
@@ -329,6 +338,43 @@ sessao3 {
     border-radius: 8px;    
     background-color: rgb(200,200,200);
 }
+
+/* Aqui começa a sessão de número 3 */
+
+section.diferenciais {
+    padding: 40px 0;
+}
+
+section.diferenciais > .container > h2 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 300;
+    color: #472562;
+}
+
+.box-diferenciais {
+    margin-top: 40px;
+}
+
+.box-single-diferencial {
+    float: left;
+    width: 33.3%;
+    padding: 0 20px;
+}
+
+.box-single-diferencial h2 {
+    font-size: 55px;
+    text-align: center;
+    color: #472562;
+}
+
+.box-single-diferencial p {
+    color: rgb(100,100,100);
+    font-size: 15px;
+    text-align: justify;
+}
+
+/*---------*/
 
 /* Aqui começa a sessão de número 4 */
 
@@ -531,6 +577,20 @@ footer p:nth-of-type(2) {
 
     .sessao2 {
         padding-top: 40px;
+    }
+
+    .box-diferenciais {
+        margin-top: 0;
+    }
+
+    .box-single-diferencial {
+        width: 100%;
+        margin-top: 12px;
+        text-align: center;
+    }
+    .box-single-diferencial p {
+        display: inline-block;
+        max-width: 400px;
     }
 
     section.sessao4 .container {

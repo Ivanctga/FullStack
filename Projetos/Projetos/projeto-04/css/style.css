@@ -7,10 +7,48 @@
     cores #0069D4
     cores #43BDF0 logo
     cores #24F4E9 logo
-
     cores #BEBFC4
-
 */
+
+/** Estilo para o plugin Slick **/
+
+    .slick-dotted ul {
+        list-style-type: none;
+        text-align: center;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .slick-dotted li {
+        display: inline-block;
+        margin: 0 7px;
+    }
+
+    .slick-dotted button:focus {
+        outline: 0;
+    }
+
+    .slick-dotted li button {
+        width: 16px;
+        height: 16px;
+        border-radius: 8px;
+        color: #d8d8d8;
+        border-width: 0;
+        background: #d8d8d8;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    li.slick-active button {
+        background: #688293;
+        color: #688293;
+    }
+
+    .slick-dotted:focus {
+        outline: none;
+    }
+
+/** Fim do estilo para o plugin **/
 
 * {
     margin: 0;
@@ -174,11 +212,11 @@ section.perfil-container {
 }
 
 section.perfil-container .container {
-    max-width: 800px;
+    max-width: 900px;
 }
 
 section.perfil-container .perfil-wraper {
-    padding-top: 60%;
+    padding-top: 55%;
     position: relative;
 }
 
@@ -214,6 +252,7 @@ section.perfil-container .texto-perfil p {
     font-size: 15px;
     text-align: justify;
     margin-top: 8px;
+   
 }
 /*-------*/
 
@@ -312,12 +351,14 @@ section.depoimentos .depoimento-single {
 .nome-depoimento img {
     width: 50px;
     height: 50px;
+    display: inline-block;
     border-radius: 25px;
+    
 }
 
 .nome-depoimento span {
     position: relative;
-    top: 18px;
+    top: -30px;
     font-size: 13px;
     color: #b4b4b4;
     display: inline-block;
@@ -483,6 +524,34 @@ footer .footer-block {
     }
 }
 
+@media screen and (max-width: 850px){
+    section.perfil-container .perfil-wraper {
+        padding-top: 0;
+    }
+
+    section.perfil-container .perfil-wraper2 {
+        height: auto;
+        position: static;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    section.perfil-container .img-perfil {
+        width: 55%;
+        padding-top: 70%;
+        display: inline-block;
+        height: auto;
+    }
+
+    section.perfil-container .texto-perfil {
+        display: inline-block;
+        text-align: justify;
+        width: 100%;
+        padding: 80px 30px;
+        margin-top: 8px;           
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     nav.menu-desktop {
@@ -514,32 +583,7 @@ footer .footer-block {
         max-width: 350px;
         padding: 30px 2%;       
     }
-
-    section.perfil-container .perfil-wraper {
-        padding-top: 0;
-    }
-
-    section.perfil-container .perfil-wraper2 {
-        height: auto;
-        position: static;
-        display: inline-block;
-        text-align: center;
-    }
     
-    section.perfil-container .img-perfil {
-        width: 55%;
-        padding-top: 70%;
-        display: inline-block;
-        height: auto;
-    }
-
-    section.perfil-container .texto-perfil {
-        display: inline-block;
-        text-align: justify;
-        width: 100%;
-        padding: 0 30px;
-        margin-top: 8px;           
-    }
 
     section.videos {
         text-align: center;
@@ -547,7 +591,8 @@ footer .footer-block {
 
     section.videos .box-video {  
         float: none;      
-        width: 70%;  
+        width: 70%;
+        margin-top: 30px;  
         display: inline-block;       
         padding-top: calc(70% * 0.6);
     } 

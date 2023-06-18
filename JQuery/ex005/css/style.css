@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, bory {
+    height: 100%;
+}
+
+.box{
+    width: 100%;
+    padding: 40px 3%;
+    background-color: rgb(210,210,210);
+    color: black;
+    text-align: justify;
+    margin: 30px 0;
+}
+
+.box2{
+    display: none;
+    width: 100%;
+    padding: 40px 3%;
+    background-color: rgb(11, 231, 247);
+    color: black;
+    text-align: justify;
+}
+
+
+.box3{    
+    width: 100%;
+    padding: 40px 3%;
+    background-color: rgb(227, 11, 247);
+    color: black;
+    text-align: justify;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.box4{
+    display: none;
+    width: 100%;
+    padding: 40px 3%;
+    background-color: rgb(11, 247, 90);
+    color: black;
+    text-align: justify;
+}
