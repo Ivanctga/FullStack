@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {height: 100%;}
+
+.menu {
+    width: 200px;
+    height: 100%;
+    background:gray ;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item a {
+    display: block;
+    padding: 10px 10px;
+    border-bottom: 1px solid white;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 170px;
+    padding: 8px 12px;
+    background: #ccc;
+    left: 195px;
+    top: 0;
+    z-index: 1;
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+}

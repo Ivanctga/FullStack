@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+   <h1 id="main-text">Olá</h1> 
+   <script>
+    window.onload = function(){
+        //Documento carregado.
+        var el = document.getElementById('main-text');
+        el.innerHTML = el.innerHTML + " Ivan Lopes";
+
+        el.style.background = "green";
+        el.style.marginLeft = "20px";
+        el.style.border = "3px solid red";
+    }
+   </script>
+</body>
+</html>

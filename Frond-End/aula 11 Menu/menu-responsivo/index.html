@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>Menu Responsivo</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h2>Logomarca</h2>
+            </div><!--logo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                        <ul class="submenu-desktop">
+                            <li><a href="">Sessão 1</a></li>
+                            <li><a href="">Sessão 2</a></li>
+                            <li><a href="">Sessão 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Sobre</a>
+                        <ul class="submenu-desktop">
+                            <li><a href="">Sessão 1</a></li>
+                            <li><a href="">Sessão 2</a></li>
+                            <li><a href="">Sessão 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+
+            <nav class="menu-mobile">
+                <i class="fa fa-bars"></i>
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                        <ul class="submenu-mobile">
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="">Sessão 1</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="">Sessão 2</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="">Sessão 3</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="">Sobre</a>
+                        <ul class="submenu-mobile">
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="">Sessão 1</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="">Sessão 2</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="">Sessão 3</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="">Contato</a>
+                        <ul class="submenu-mobile">
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="">Sessão 1</a></li>          
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div><!--container-->
+    </header>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript">
+        $('nav.menu-mobile > i').click(function(){
+            $(this).parent().find('ul:not(.submenu-mobile)').slideToggle();
+        })
+    </script>
+</body>
+</html>

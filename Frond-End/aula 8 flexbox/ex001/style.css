@@ -1,45 +1,5 @@
 @charset "utf-8";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html ,body {
-    height: 100%;
-}
-
-/* Classes gerais - framework */
-
-.text-white {
-    color: white;
-}
-    
-
-.gold {
-    background-color: gold;
-}
-
-.light-blue {
-    background-color: #00a3d9;
-}
-
-section.container {
-    width: 100%;
-}
-
-div.flex {
-    display: flex;
-    max-width: 960px;
-    padding: 0 2%;
-    margin: 0 auto;
-}
-
-div.w50 {
-    width: 50%;
-}
-
 /* Classes especificas para nosso site */
 
 header.topo-site {
@@ -63,10 +23,22 @@ header.topo-site a {
     text-decoration: none;
 }
 
-.left {
-    text-align: left;
+.slider {
+    min-height: 600px;
 }
 
-.right {
-    text-align: right;
+.slider P{
+    position: relative;
+    font-size: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    border-bottom: 4px solid white;
+    color: white;
 }
+
+.promo {
+    padding: 40px 0;
+}
+
+

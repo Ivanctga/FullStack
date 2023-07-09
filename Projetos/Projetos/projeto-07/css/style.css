@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+.sect1 {
+  position: relative;
+  min-height: 400px;
+}
+
+.form-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background: white;
+  width: 100%;
+  padding: 15px 2%;
+  max-width: 700px;
+}
+
+.custom-title {
+  position: relative;
+}
+
+.custom-title h2 {  
+  font-size: 26px;
+  color: #555;
+  background: white;
+  display: inline-block;
+  padding-right: 10px;
+  z-index: 2;
+  position: relative;   
+}
+
+.custom-title > div {
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  background: #999;
+  left: 0;
+  top: 43px;
+  z-index: 1;
+}
+
+.offset-equipe {
+  position: relative;
+  top: 75px;
+}
+
+@media screen and (max-width: 768px) {
+  .offset-equipe {
+    top: 0;
+  }
+}
+
+
